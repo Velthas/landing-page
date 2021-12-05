@@ -3,12 +3,16 @@ body {
     flex-direction: column;
 }
 
+.navbar,
+ul li a {
+color: #f23869
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #271640;
-    color: #f23869;
     padding: 16px;
     font-family: 'Meow Script', cursive;
 
@@ -27,6 +31,10 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 16px;
+}
+
+ul li a {
+    text-decoration: none;
 }
 
 
