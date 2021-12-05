@@ -4,7 +4,8 @@ body {
 }
 
 .navbar,
-ul li a {
+ul li a,
+.herotext {
 color: #f23869
 }
 
@@ -15,7 +16,6 @@ color: #f23869
     background-color: #271640;
     padding: 16px;
     font-family: 'Meow Script', cursive;
-
 }
 
 .logo {
@@ -37,4 +37,48 @@ ul li a {
     text-decoration: none;
 }
 
+.hero {
+    background-color: #271640;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+h1, 
+p {
+    margin: 8px 0 8px 0;
+}
+
+.herotext,
+.heroimage {
+    width: 30%;
+    flex: 0 1 auto;
+    
+}
+
+img {
+    width: 70%;
+    height: 70%;
+}
+
+.lowcontrast {
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f23869;
+    color: #f2f2f2;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: #BB94F2;
+    color: #180D26
+}
