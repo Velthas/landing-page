@@ -82,3 +82,67 @@ button:hover {
     background-color: #BB94F2;
     color: #180D26
 }
+
+.information {
+    background-color: #BB94F2;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    gap: 32px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.info {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+
+.shade {
+    background-color: white;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    border: 2px solid #f23869
+}
+
+.infoheader {
+    color: #180D26;
+    flex: 0 1 auto;
+}
+
+.one {
+    background-color: #271640;
+}
+
+.two {
+    background-color: #2e1652;
+}
+
+.three {
+    background-color: #35136b;
+}
+
+.four {
+    background-color: #41187e;
+} 
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 125px;
+}
