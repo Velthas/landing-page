@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #271640;
+    color: #f23869;
+    padding: 16px;
+    font-family: 'Meow Script', cursive;
+
+}
+
+.logo {
+    font-size: 32px;
+}
+
+
+.links ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+
