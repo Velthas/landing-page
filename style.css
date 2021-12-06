@@ -1,148 +1,226 @@
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar,
 ul li a,
-.herotext {
-color: #f23869
+.herotext,
+.footer a {
+  color: #f23869;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #271640;
-    padding: 16px;
-    font-family: 'Meow Script', cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #271640;
+  padding: 16px;
+  font-family: "Meow Script", cursive;
 }
 
 .logo {
-    font-size: 32px;
+  font-size: 32px;
 }
 
-
 .links ul {
-    list-style: none;
-    padding: 0; 
-    margin: 0;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-around;
-    gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
 }
 
 ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .hero {
-    background-color: #271640;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  background-color: #271640;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-h1, 
+h1,
 p {
-    margin: 8px 0 8px 0;
+  margin: 8px 0 8px 0;
 }
 
-.herotext,
+.herotext {
+  width: 30%;
+  flex: 0 1 auto;
+}
+
 .heroimage {
-    width: 30%;
-    flex: 0 1 auto;
-    
+  width: 25%;
 }
 
 img {
-    width: 70%;
-    height: 70%;
+  width: 70%;
+  height: 70%;
 }
 
 .lowcontrast {
-    color: #f2f2f2;
-    font-size: 18px;
+  color: #f2f2f2;
+  font-size: 18px;
 }
 
 button {
-    font-size: 14px;
-    font-weight: bold;
-    background-color: #f23869;
-    color: #f2f2f2;
-    padding: 8px;
-    border-radius: 8px;
-    border: none;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f23869;
+  color: #f2f2f2;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
 }
 
 button:hover {
-    background-color: #BB94F2;
-    color: #180D26
+  background-color: #bb94f2;
+  color: #180d26;
 }
 
 .information {
-    background-color: #BB94F2;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 50vh;
-    gap: 32px;
+  background-color: #bb94f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  gap: 32px;
 }
 
 .infocontainer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .info {
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 8px;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
 }
 
 .shade {
-    background-color: white;
-    width: 125px;
-    height: 125px;
-    border-radius: 10px;
-    border: 2px solid #f23869
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .infoheader {
-    color: #180D26;
-    flex: 0 1 auto;
+  color: #180d26;
 }
 
 .one {
-    background-color: #271640;
+  background-color: #271640;
 }
 
 .two {
-    background-color: #2e1652;
+  background-color: #2e1652;
 }
 
 .three {
-    background-color: #35136b;
+  background-color: #35136b;
 }
 
 .four {
-    background-color: #41187e;
-} 
+  background-color: #41187e;
+}
 
 .description {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    width: 125px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.quote {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #271640;
+}
+
+.quotation {
+  color: #f2f2f2;
+  font-size: 28px;
+  font-style: italic;
+  width: 50vh;
+  flex-shrink: 1;
+}
+
+.quotatee {
+  width: 50vh;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f23869;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calltoarms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #bb94f2;
+}
+
+.aubergine {
+  width: 65%;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  background-color: #271640;
+  color: #f2f2f2;
+}
+
+.ctatext {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  width: 70%;
+}
+
+.aubergine h2,
+.aubergine p {
+  margin: 5px;
+}
+
+.aubergine button {
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #271640;
+  color: #f2f2f2;
+  height: 8vh;
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #bb94f2;
 }
