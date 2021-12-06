@@ -1,4 +1,5 @@
-# landing-page <img src="./images/eggplant.svg" alt="Eggplant" width="150px" height="150px">
+<img src="./images/eggplant.svg" alt="Eggplant" width="150px" height="150px">
+# landing-page 
 
 ### Description
 A simple webpage themed after eggplants and designed to put into practice the numerous flexible box layout properties CSS has to offer us. Through this exercise I was able to apply the knowledge I have been gathering over the past few days on amazing sources such as **MDN** and **The Odin Project**. 
