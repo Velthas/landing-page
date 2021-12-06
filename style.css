@@ -87,10 +87,7 @@ button:hover {
 
 .information {
   background-color: #bb94f2;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  text-align: center;
   height: 50vh;
   gap: 32px;
 }
@@ -104,22 +101,21 @@ button:hover {
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  text-align: center;
   padding: 10px;
+  max-width: 200px;
 }
 
 .shade {
   width: 150px;
   height: 150px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .infoheader {
   color: #180d26;
+  margin-bottom: 30px;
 }
 
 .one {
@@ -139,10 +135,8 @@ button:hover {
 }
 
 .description {
-  text-align: center;
-  font-size: 16px;
   font-weight: bold;
-  width: 150px;
+  margin-top: 8px;
 }
 
 .quote {
