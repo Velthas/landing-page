@@ -2,8 +2,9 @@
 
 # Landing Page
 
-## Description
 A simple webpage themed after eggplants and designed to put into practice the numerous flexible box layout properties CSS has to offer us. Through this exercise I was able to apply the knowledge I have been gathering over the past few days on amazing sources such as **MDN** and **The Odin Project**. 
+
+## Description
 
 The following aims to be a detailed self reflection of my thought process when designing this webpage. I understand it may get very monotonous and dull for someone who is familiar with flexbox, but do understand this was written with the intent of internalizing knowledge, as well as laying out my strategy for later review.
 
